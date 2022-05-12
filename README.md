@@ -1,4 +1,4 @@
-# Run Buddy Inc.
+# Run Buddy Inc..
 
 ## Purpose
 
@@ -8,7 +8,6 @@ A website that offers fitness training services.
 
 - HTML
 - CSS
-  this is actually confusing
 
 ## Website
 
