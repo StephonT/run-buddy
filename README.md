@@ -15,8 +15,4 @@ https://lernantino.github.io/run-buddy/
 
 ## Contribution
 
-<<<<<<< HEAD
 Made with ❤️ by [Stephon T.]
-=======
-Made with ❤️ by [StephonT.]
->>>>>>> main
