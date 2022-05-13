@@ -17,11 +17,11 @@
       </h1>
 
       <nav>
-        <!--Unorderes list element-->
+       
         <ul>
-          <!--List item element-->
+          
           <li>
-            <!-- Anchor element -->
+            
             <a href="#what-we-do">What We Do</a>
           </li>
 
@@ -121,66 +121,105 @@
     <!--"What we Do" Section-->
 
     <section id="what-we-do" class="intro">
-      <h2 class="section-title primary-border">What We Do</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolore a
-        quos, voluptate accusamus velit commodi placeat repellat illum harum
-        praesentium odio quidem, minus dolorem alias excepturi iste debitis
-        blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Omnis beatae ex voluptate? Quidem perspiciatis, aliquam voluptatum
-        cumque quis veritatis. Repudiandae fugiat molestiae quidem quasi
-        voluptatibus ipsum consequuntur dolores accusantium repellendus?
-      </p>
+      <div class="flex-row">
+        <h2 class="section-title primary-border">What We Do</h2>
+      </div>
+      <div class="flex-row">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolore
+          a quos, voluptate accusamus velit commodi placeat repellat illum harum
+          praesentium odio quidem, minus dolorem alias excepturi iste debitis
+          blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Omnis beatae ex voluptate? Quidem perspiciatis, aliquam voluptatum
+          cumque quis veritatis. Repudiandae fugiat molestiae quidem quasi
+          voluptatibus ipsum consequuntur dolores accusantium repellendus?
+        </p>
+      </div>
     </section>
 
     <!--"What You Do" section-->
 
     <section id="what-you-do" class="steps">
-      <h2 class="section-title secondary-border">What You Do</h2>
-
-      <div>
-        <img src="assets/images/step-1.svg" alt="" />
-        <h3>Step 1: <span>Fill Out The Form Above</span></h3>
-        <p>You're already here, so why not?</p>
+      <div class="flex-row">
+        <h2 class="section-title secondary-border">What You Do</h2>
       </div>
 
-      <div>
-        <img src="assets/images/step-2.svg" />
-        <h3>Step 2: <span>Consult With One of Our Trainers</span></h3>
-        <p>Are you here to build muscle, lose weight, or just feel good?</p>
+      <div class="step">
+        <h3>Step 1.</h3>
+        <div class="step-info">
+          <div class="step-img">
+            <img src="assets/images/step-1.svg" alt="" />
+          </div>
+
+          <div class="step-text">
+            <h4>Fill Out The Form Above</h4>
+            <p>You're already here, so why not?</p>
+          </div>
+        </div>
       </div>
 
-      <div>
-        <img src="assets/images/step-3.svg" />
-        <h3>Step 3: <span>Get Running</span></h3>
-        <p>
-          Hit the ground running (literally) once your trainer lays out your
-          plan.
-        </p>
+      <div class="step">
+        <h3>Step 2.</h3>
+        <div class="step-info">
+          <div class="step-img">
+            <img src="assets/images/step-2.svg" alt="" />
+          </div>
+
+          <div class="step-text">
+            <h4>Consult With One of Our Trainers</h4>
+            <p>Are you here to build muscle, lose weight, or feel good?</p>
+          </div>
+        </div>
       </div>
 
-      <div>
-        <img src="assets/images/step-4.svg" />
-        <h3>Step 4: <span>See Results</span></h3>
-        <p>Bi-weekly checkins with your trainer will keep you focused.</p>
+      <div class="step">
+        <h3>Step 3.</h3>
+        <div class="step-info">
+          <div class="step-img">
+            <img src="assets/images/step-3.svg" alt="" />
+          </div>
+
+          <div class="step-text">
+            <h4>Get Running</h4>
+            <p>
+              Hit the ground running (literally) once your trainer lays out your
+              plan.
+            </p>
+          </div>
+        </div>
       </div>
-    </section>
+
+      <div class="step">
+        <h3>Step 4.</h3>
+        <div class="step-info">
+          <div class="step-img">
+            <img src="assets/images/step-4.svg" alt="" />
+          </div>
+
+          <div class="step-text">
+            <h4>See Results</h4>
+            <p>Bi-weekly checkins with your trainer will keep you focused.</p>
+          </div>
+        </div>
+      </div>
 
     <!--"Meet the Trainers" section-->
 
-    <section id="your-trainers" id="your-trainers" class="trainers">
-      <h2 class="section-title primary-border">Meet the Trainers</h2>
+    <section id="your-trainers">
+      <div class="flex-row">
+        <h2 class="section-title primary-border">Meet The Trainers</h2>
+      </div>
 
       <!--First Trainer, Arron Stephens-->
-
+    <div class="trainers"> 
       <article class="trainer">
         <img
           src="assets/images/trainer-1.jpg"
           alt="Arron Stephens in his workout clothes, ready to pump iron"
         />
-        <div class="trainer-bio text-left">
-          <h3>Arron Stephens</h3>
-          <h4>Speed / Strength</h4>
+        <div class="trainer-bio">
+          <h3 class="trainer-name">Arron Stephens</h3>
+          <h4 class="trainer-role">Speed / Strength</h4>
 
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam,
@@ -194,10 +233,14 @@
       <!--Second Trainer, Joanna Gill-->
 
       <article class="trainer">
-        <div class="trainer-bio text-right">
-          <h3>Joanna Gill</h3>
+        <img
+          src="assets/images/trainer-2.jpg"
+          alt="Joanna Gill cooling after a workout"
+        />
+        <div class="trainer-bio">
+          <h3 class="trainer-name">Joanna Gill</h3>
 
-          <h4>Endurance</h4>
+          <h4 class="trainer-role">Endurance</h4>
 
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
@@ -206,12 +249,7 @@
             recusandae optio accusamus! Eligendi, soluta ab.
           </p>
         </div>
-
-        <img
-          src="assets/images/trainer-2.jpg"
-          alt="Joanna Gill cooling after a workout"
-        />
-      </article>
+      </article> 
 
       <!--Third Trainer / Harry "The Headband" Smith-->
 
@@ -221,67 +259,70 @@
           alt="Harry Smith wearing a handband and comically lifting small pink weights"
         />
 
-        <div class="trainer-bio text-left">
-          <h3>Harry "the Headband" Smith</h3>
+        <div class="trainer-bio">
+          <h3 class="trainer-name">Harry "the Headband" Smith</h3>
 
-          <h4>Strength</h4>
+          <h4 class="trainer-roll">Strength</h4>
 
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
             ratione dolores est eius! Maxime, illum quos culpa accusamus enim
             nam corporis tempore fugiat ratione qui esse! Deleniti debitis iste
-            deserunt.
-          </p>
-        </div>
+            deserunt.</p>
+         </div>
       </article>
-    </section>
+    </div>  
+  </section>
+    
 
     <!--"Reach Out" section-->
 
     <section id="reach-out" class="contact">
-      <h2 class="section-title secondary-border">Reach Out</h2>
+      <div class="flex-row">
+        <h2 class="section-title secondary-border">Reach Out</h2>
+      </div>
+    
+    <div class="contact-info">
+      <div>
+        <h3>Run Buddy</h3>
+        <p>
+        Any questions or concerns before signing up?
 
-      <div class="contact-info">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.43345696961!2d-74.44196664944084!3d40.48779705913757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3c644ea74d70d%3A0x5179ea3028764c08!2s55%20Paul%20Robeson%20Blvd%2C%20New%20Brunswick%2C%20NJ%2008901!5e0!3m2!1sen!2sus!4v1651936153799!5m2!1sen!2sus"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
+        <br />
 
-        <div class="contact-form">
-          <h3>Contact Us</h3>
-          <form>
-            <label for="contact-form">Your Name</label>
-            <input type="text" id="contact-name" placeholder="Your Name" />
+        Let us know and we'll be happy to talk to you!
+      </p>
 
-            <label for="contact-message">Message</label>
-            <textarea id="contact-message" placeholder="Message"></textarea>
+      <adress>
+        55 Main Street <br />
+        Some Town, Ca <br />
+        12345<br />
+        P: 555. RUN.BUDZ (555.786.2839)<br />
+        E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+      </adress>
 
-            <button type="submit">Submit</button>
-          </form>
-        </div>
 
-        <div>
-          <h3>Run Buddy</h3>
-          <p>
-            Any questions or concerns before signing up?
+    </div>
 
-            <br />
+    <div class="contact-form">
+      <h3>Contact Us</h3>
+      <form>
+        <label for="contact-form">Your Name</label>
+        <input type="text" id="contact-name" placeholder="Your Name" />
 
-            Let us know and we'll be happy to talk to you!
-          </p>
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" placeholder="Message"></textarea>
 
-          <adress>
-            55 Main Street <br />
-            Some Town, Ca <br />
-            12345<br />
-            P: 555. RUN.BUDZ (555.786.2839)<br />
-            E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
-          </adress>
-        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+      
+    <iframe
+     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.43345696961!2d-74.44196664944084!3d40.48779705913757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3c644ea74d70d%3A0x5179ea3028764c08!2s55%20Paul%20Robeson%20Blvd%2C%20New%20Brunswick%2C%20NJ%2008901!5e0!3m2!1sen!2sus!4v1651936153799!5m2!1sen!2sus"
+          frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
     </section>
+  </div>  
 
     <!--"Footer"-->
 
