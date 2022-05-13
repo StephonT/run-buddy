@@ -1,4 +1,4 @@
-# Run Buddy
+# Run Buddy, Inc
 
 ## Purpose
 
@@ -15,4 +15,6 @@ https://lernantino.github.io/run-buddy/
 
 ## Contribution
 
-Made with ❤️ by [Stephon T.]
+Made with ❤️ by [StephonT.]
+
+### ©️2019 Run Buddy, Inc
